@@ -84,6 +84,8 @@ class CompileRest(PageCompiler):
                         'stylesheet_path': None,
                         'link_stylesheet': True,
                         'syntax_highlight': 'short',
+                        'doctitle_xform': False,
+                        'sectsubtitle_xform': False,
                     })
                 out_file.write(output)
             deps_path = dest + '.dep'

@@ -5,6 +5,7 @@ Features
 --------
 
 * New "hidetitle" metadata that does not print the title on the page/post (Issue #584)
+* categories
 * Added a FUTURE_IS_NOW option for publishing future-dated posts now (Issues #486, #577)
 * New typogrify filter (Issue #576)
 * New COPY_SOURCES option, defaults to True (Issue #544)
@@ -17,6 +18,10 @@ Features
 Bugfixes
 --------
 
+* Use absolute URLs in feeds (Issue #590)
+* Fix for mincss path munging (Issues #570 #589)
+* Added missing dependency in gallery indexes (Issue #536)
+* Anchors in listings had wrong filename slugs
 * Only warn about incomplete translations once (Issue #580)
 * Right-align image title in colorbox to avoid overlapping so much (Mentioned in Issue #570)
 * Added LICENSE in the footer (Issue #528)
