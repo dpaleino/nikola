@@ -1,10 +1,9 @@
 [Core]
-Name = rest
-Module = compile_rest
+Name = init
+Module = init
 
 [Documentation]
 Author = Roberto Alsina
-Version = 0.1
+Version = 0.2
 Website = http://nikola.ralsina.com.ar
-Description = Compile reSt into HTML
-
+Description = Create a new site.

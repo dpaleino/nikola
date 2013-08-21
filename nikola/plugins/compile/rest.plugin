@@ -1,9 +1,10 @@
 [Core]
-Name = console
-Module = command_console
+Name = rest
+Module = rest
 
 [Documentation]
 Author = Roberto Alsina
 Version = 0.1
 Website = http://nikola.ralsina.com.ar
-Description = Start a debugging python console
+Description = Compile reSt into HTML
+

@@ -1,6 +1,6 @@
 [Core]
 Name = misaka
-Module = compile_misaka
+Module = misaka
 
 [Documentation]
 Author = Chris Lee

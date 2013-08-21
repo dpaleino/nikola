@@ -1,6 +1,6 @@
 [Core]
 Name = html
-Module = compile_html
+Module = html
 
 [Documentation]
 Author = Roberto Alsina

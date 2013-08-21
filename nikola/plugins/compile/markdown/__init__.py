@@ -34,13 +34,13 @@ import os
 try:
     from markdown import markdown
 
-    from nikola.plugins.compile_markdown.mdx_nikola import NikolaExtension
+    from nikola.plugins.compile.markdown.mdx_nikola import NikolaExtension
     nikola_extension = NikolaExtension()
 
-    from nikola.plugins.compile_markdown.mdx_gist import GistExtension
+    from nikola.plugins.compile.markdown.mdx_gist import GistExtension
     gist_extension = GistExtension()
 
-    from nikola.plugins.compile_markdown.mdx_podcast import PodcastExtension
+    from nikola.plugins.compile.markdown.mdx_podcast import PodcastExtension
     podcast_extension = PodcastExtension()
 
 except ImportError:

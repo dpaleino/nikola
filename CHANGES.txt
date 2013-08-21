@@ -5,6 +5,8 @@ Features
 --------
 
 * New "hidetitle" metadata that does not print the title on the page/post (Issue #584)
+* Optional hyphenation (HYPHENATE option, Issue #576)
+* Made AddThis support replaceable through new SOCIAL_BUTTONS_CODE option.
 * categories
 * Added a FUTURE_IS_NOW option for publishing future-dated posts now (Issues #486, #577)
 * New typogrify filter (Issue #576)
@@ -18,6 +20,9 @@ Features
 Bugfixes
 --------
 
+* Solve site theme's navbar overlapping Issues (Issue #585)
+* Deprecated ADD_THIS_BUTTONS option.
+* Show warning if unable to thumbnail an image (Issue #551)
 * Use absolute URLs in feeds (Issue #590)
 * Fix for mincss path munging (Issues #570 #589)
 * Added missing dependency in gallery indexes (Issue #536)
